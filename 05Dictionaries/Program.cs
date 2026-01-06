@@ -1,4 +1,6 @@
-﻿namespace _05Dictionaries;
+﻿using System.Runtime.InteropServices.JavaScript;
+
+namespace _05Dictionaries;
 
 class Program
 {
@@ -12,6 +14,7 @@ class Program
     internal void Run()
     {
         Console.WriteLine("05");
+        DictionaryLesson.DictionaryExercise();
     }   
 
 }
