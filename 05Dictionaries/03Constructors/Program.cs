@@ -9,9 +9,9 @@ class Program
         program.Run();
     }
 
-    internal void Run()
+    private void Run()
     {
-        Console.WriteLine("Helloooo");
+        QuizVraag quizVraag = new QuizVraag("Hier komt de vraag", "Hier komt het antwoord");
     }
 
 }
